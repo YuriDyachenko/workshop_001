@@ -18,7 +18,7 @@ public class Main {
         Calendar now = Calendar.getInstance();
         int hour = now.get(Calendar.HOUR_OF_DAY);
         String hello = hour > 17 ? "Добрый вечер" : hour > 10 ? "Добрый день" :
-                hour > 5 ? "Добррое утро" : "Доброй ночи";
+                hour > 5 ? "Доброе утро" : "Доброй ночи";
         System.out.printf("%s, %s!\n", hello, userName);
 
     }
